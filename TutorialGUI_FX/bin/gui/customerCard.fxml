@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<StackPane prefHeight="576.0" prefWidth="793.0" style="-fx-background-color: #02030A;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.CustomerCardControl">
+   <children>
+      <Pane fx:id="pnlOverview" prefHeight="554.0" prefWidth="793.0" style="-fx-background-color: fff;" stylesheets="@style.css">
+         <children>
+            <Label layoutX="57.0" layoutY="25.0" styleClass="Label" text="Customer card" textFill="#e7e5e5">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <TextField fx:id="SearchBt" layoutX="590.0" layoutY="47.0" onAction="#getSearchText" prefHeight="27.0" prefWidth="183.0" promptText="search" style="-fx-border-color: #B7C3D7; -fx-border-radius: 2em;" />
+            <HBox alignment="CENTER_LEFT" layoutX="45.0" layoutY="72.0" prefHeight="92.0" prefWidth="648.0" spacing="50.0">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label styleClass="Label" text="vladibel" textFill="#00e03e">
+                           <font>
+                              <Font size="22.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label text="1780" textFill="#26bfbc">
+                           <font>
+                              <Font name="System Bold" size="26.0" />
+                           </font>
+                        </Label>
+                        <Label styleClass="Label" stylesheets="@style.css" text="Total maps" textFill="#e7e5e5" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="92.0" prefWidth="125.0">
+                     <children>
+                        <Label text="1000" textFill="#fa5f7e">
+                           <font>
+                              <Font name="System Bold" size="26.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="21.0" prefWidth="140.0" styleClass="Label" text="One time maps" textFill="#e7e5e5" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="92.0" prefWidth="140.0">
+                     <children>
+                        <Label prefHeight="38.0" prefWidth="58.0" text="780" textFill="#de0000">
+                           <font>
+                              <Font name="System Bold" size="26.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Label>
+                        <Label prefHeight="21.0" prefWidth="134.0" styleClass="Label" text="Subscription maps" textFill="#e7e5e5" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox fx:id="Details" alignment="CENTER_LEFT" layoutX="24.0" layoutY="193.0" prefHeight="42.0" prefWidth="746.0" spacing="80.0" stylesheets="@style.css" />
+            <ScrollPane layoutX="32.0" layoutY="235.0" prefHeight="314.0" prefWidth="746.0" style="-fx-background-color: transparent;" stylesheets="@style.css">
+               <content>
+                  <VBox fx:id="Table" prefHeight="312.0" prefWidth="742.0" spacing="5.0" style="-fx-background-color: #ffffff; -fx-border-color: fff;">
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                  </VBox>
+               </content>
+            </ScrollPane>
+         </children>
+      </Pane>
+   </children>
+</StackPane>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<StackPane prefHeight="576.0" prefWidth="793.0" style="-fx-background-color: #02030A;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane fx:id="pnlOverview" prefHeight="554.0" prefWidth="793.0" style="-fx-background-color: fff;" stylesheets="@../../../../Downloads/FXMLS/style.css">
+         <children>
+            <Label layoutX="24.0" prefHeight="38.0" prefWidth="118.0" text="Why Gcm?">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <HBox layoutX="14.0" layoutY="52.0" prefHeight="100.0" prefWidth="674.0">
+               <children>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <ImageView fitHeight="104.0" fitWidth="200.0">
+                                 <image>
+                                    <Image url="@../../../Every-Task-a-Customer-Service-Rep-Must-Do-opengraph.png" />
+                                 </image>
+                              </ImageView>
+                              <Label text="service" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fitHeight="104.0" fitWidth="200.0">
+                           <image>
+                              <Image url="@../../../best-price-tag.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label text="price" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fitHeight="104.0" fitWidth="200.0">
+                           <image>
+                              <Image url="@../../../Screen_Shot_2016-05-18_at_10.42.31_AM.0.0.png" />
+                           </image>
+                        </ImageView>
+                        <Label text="Fast Use" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox layoutX="14.0" layoutY="227.0" prefHeight="100.0" prefWidth="674.0" style="-fx-background-color: ffffff;">
+               <children>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <ImageView fitHeight="104.0" fitWidth="200.0">
+                                 <image>
+                                    <Image url="@../../../Karmiel_-_Israel_2008.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label text="Karmiel" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fitHeight="104.0" fitWidth="200.0">
+                           <image>
+                              <Image url="@../../../הורדה.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label text="Haifa" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fitHeight="104.0" fitWidth="200.0">
+                           <image>
+                              <Image url="@../../../8ec64b64e1d0805b1101f6c70c7f5b31-tel-aviv.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label text="Tel-Aviv" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <Label layoutX="15.0" layoutY="188.0" prefHeight="38.0" prefWidth="190.0" text="Daily Deals See All-&gt; ">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <HBox layoutX="16.0" layoutY="396.0" prefHeight="100.0" prefWidth="674.0">
+               <children>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <ImageView fitHeight="104.0" fitWidth="200.0">
+                                 <image>
+                                    <Image url="@../../../8ec64b64e1d0805b1101f6c70c7f5b31-tel-aviv.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label text="Tel aviv" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fitHeight="104.0" fitWidth="200.0">
+                           <image>
+                              <Image url="@../../../הורדה.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label text="Haifa" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fitHeight="104.0" fitWidth="200.0">
+                           <image>
+                              <Image url="@../../../הורדה%20(1).jpg" />
+                           </image>
+                        </ImageView>
+                        <Label text="Acre" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <Label layoutX="15.0" layoutY="356.0" prefHeight="38.0" prefWidth="228.0" text="Most purchases See all-&gt;">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</StackPane>

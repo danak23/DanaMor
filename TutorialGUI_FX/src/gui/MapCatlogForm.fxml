@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<StackPane prefHeight="576.0" prefWidth="793.0" style="-fx-background-color: #02030A;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.MapCatlogController">
+   <children>
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: fff;" styleClass="Style.css">
+         <children>
+            <ScrollPane layoutX="18.0" layoutY="52.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="507.0" prefWidth="738.0">
+               <content>
+                  <GridPane fx:id="ledPanel" alignment="CENTER" cacheShape="false" prefHeight="465.0" prefWidth="711.0" scaleShape="false">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </GridPane>
+               </content>
+            </ScrollPane>
+            <Label layoutX="54.0" layoutY="17.0" textOverrun="WORD_ELLIPSIS">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Line endX="-43.39997863769531" endY="3.814697265625E-6" layoutX="143.0" layoutY="37.0" startX="-100.0" stroke="#7c09eb" />
+            <Line endX="-43.39997863769531" endY="3.814697265625E-6" layoutX="219.0" layoutY="37.0" startX="-100.0" stroke="#eb0909" />
+            <Label layoutX="197.0" layoutY="12.0" style="-fx-background-color: ffffff;" text="Sort by" textOverrun="WORD_ELLIPSIS">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="cmbSort" layoutX="252.0" layoutY="10.0" onAction="#loadSort" prefHeight="28.0" prefWidth="113.0" />
+            <TextField fx:id="searchText" layoutX="555.0" layoutY="11.0" onAction="#getSearchText" prefHeight="26.0" prefWidth="140.0" promptText="Search" />
+            <Button fx:id="areaBtn" layoutX="43.0" layoutY="2.0" mnemonicParsing="false" onAction="#getAreaBtn" style="-fx-background-color: ffffff;" text="Area" />
+            <Button fx:id="cityBtn" layoutX="122.0" layoutY="3.0" mnemonicParsing="false" onAction="#getCityBtn" style="-fx-background-color: ffffff;" text="City" />
+         </children>
+      </Pane>
+   </children>
+</StackPane>

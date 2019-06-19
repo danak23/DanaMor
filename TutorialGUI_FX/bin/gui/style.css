@@ -1,0 +1,116 @@
+.button
+{
+-fx-background-color :  #dbdbdb;
+-fx-text-fill : #2b2b2b;
+-fx-border-radius:2.0em;
+
+}
+.button:hover{
+-fx-background-color : #c1c1c1;
+-fx-text-fill : #fff;
+
+}
+.button:pressed
+{
+-fx-background-color : #c1c1c1;
+}
+
+
+.button-green
+{
+-fx-background-color : #c2ffb7;
+-fx-text-fill : #487530;
+-fx-border-color : #c2ffb7;
+-fx-border-radius:2.0em;
+-fx-background-radius: 2.0em;
+}
+.button-green:hover{
+-fx-background-color :  #487530;
+-fx-border-color :  #487530;
+-fx-text-fill : #fff;
+
+}
+.button-green:pressed
+{
+-fx-background-color : #147f32;
+-fx-text-fill : #c2ffb7;
+-fx-border-color : #147f32;
+
+}
+
+.button-red
+{
+-fx-background-color : #fff;
+-fx-text-fill : red;
+-fx-border-color : red;
+-fx-border-radius:2.0em;
+-fx-background-radius: 2.0em;
+}
+.button-red:hover{
+-fx-background-color :  red;
+-fx-border-color :  red;
+-fx-text-fill : #fff;
+
+}
+.button-red:pressed
+{
+-fx-background-color : red;
+-fx-text-fill : #fff;
+-fx-border-color : red;
+}
+
+
+.scroll-pane {
+    -fx-background-color: #02030A;
+}
+
+.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+
+.increment-button, .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0.0em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #2b2b2b;
+    -fx-background-radius: 5.0em;
+}
+
+.scroll-pane > .corner {
+    -fx-background-color: #fff;
+}
+
+
+.Label{
+	-fx-text-fill : #000;
+}
+
+.whiteBackGround{
+    -fx-background-color: #fff;
+}
+
+.greyBackGround{
+    -fx-background-color: #dbdbdb;
+}
+
+.greyBorder{
+    -fx-border-color: #dbdbdb;
+}
+
+.alertLbl{
+	-fx-text-fill: #721c24;
+    -fx-background-color: #f8d7da;
+    -fx-border-color: #f5c6cb;
+   	-fx-border-radius: 0.25em;
+    -fx-background-radius:0.25em;
+}

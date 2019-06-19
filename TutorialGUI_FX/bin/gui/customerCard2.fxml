@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<StackPane prefHeight="576.0" prefWidth="793.0" style="-fx-background-color: #02030A;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.CustomerCard2Control">
+   <children>
+      <Pane fx:id="pnlOverview" prefHeight="554.0" prefWidth="793.0" style="-fx-background-color: fff;">
+         <children>
+            <Label layoutX="57.0" layoutY="25.0" text="Customer card">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Label>
+            <TextField fx:id="SearchBt" layoutX="590.0" layoutY="47.0" onAction="#getSearchText" prefHeight="27.0" prefWidth="183.0" promptText="search" style="-fx-border-color: #B7C3D7; -fx-border-radius: 2em;" />
+            <AnchorPane layoutX="47.0" layoutY="109.0" prefHeight="414.0" prefWidth="715.0">
+               <children>
+                  <VBox alignment="CENTER" layoutX="-14.0" prefHeight="136.0" prefWidth="183.0">
+                     <children>
+                        <Label fx:id="NameInput" text="Name" textFill="#26bfbc">
+                           <font>
+                              <Font name="System Bold" size="26.0" />
+                           </font>
+                        </Label>
+                        <Label text="Client name" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" layoutX="252.0" prefHeight="136.0" prefWidth="463.0">
+                     <children>
+                        <Label fx:id="emailTxt" prefHeight="38.0" prefWidth="375.0" text="Email" textFill="#26bfbc">
+                           <font>
+                              <Font name="System Bold" size="26.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="21.0" prefWidth="394.0" text="Client email" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" layoutY="121.0" prefHeight="136.0" prefWidth="183.0">
+                     <children>
+                        <Label fx:id="telTxt" text="Tel" textFill="#26bfbc">
+                           <font>
+                              <Font name="System Bold" size="26.0" />
+                           </font>
+                        </Label>
+                        <Label text="Client phone" />
+                     </children>
+                  </VBox>
+                  <Button fx:id="HistoryBt" layoutX="252.0" layoutY="257.0" mnemonicParsing="false" onMouseClicked="#HistoryBt" prefHeight="33.0" prefWidth="140.0" text="Purchase History" />
+               </children>
+            </AnchorPane>
+         </children>
+      </Pane>
+   </children>
+</StackPane>
